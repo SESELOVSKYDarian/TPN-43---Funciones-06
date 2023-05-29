@@ -14,7 +14,7 @@ string ObtenerDDD (int cod)
 {
     int a;
     string des;
-    string msg = "El DDD es: ";
+    string msg = "DDD NO ENCONTRADO"";
     if(cod==61){
         a=1;
         des="Brasilia";
@@ -48,10 +48,8 @@ string ObtenerDDD (int cod)
         des="Belo Horizonte";
     }
     if (a==1){
+        msg = "El DDD es: ";
         return msg + des; 
-    }
-    else{
-        return "DDD NO ENCONTRADO";
     }
     return msg;
 }
