@@ -14,7 +14,7 @@ string ObtenerDDD (int cod)
 {
     int a;
     string des;
-    string msg = "DDD NO ENCONTRADO"";
+    string msg = "DDD NO ENCONTRADO";
     if(cod==61){
         a=1;
         des="Brasilia";
